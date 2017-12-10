@@ -8,6 +8,10 @@
  */
 public class Demi {
     public static void main(String[] args) {
+        Integer i=1;
+
         System.out.println("haa!");
+
+
     }
 }
