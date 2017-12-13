@@ -7,11 +7,23 @@
  * @since 1.0.0
  */
 public class Demi {
-    public static void main(String[] args) {
-        Integer i=1;
+    int i;
+    String  s;
 
-        System.out.println("haa!");
+    public int getI() {
+        return i;
+    }
 
+    public void setI(int i) {
+        this.i = i;
+    }
 
+    public String getS() {
+        return s;
+    }
+
+    public void setS(String s) {
+        this.s = s;
+        int i=1;
     }
 }
